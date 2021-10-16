@@ -47,11 +47,11 @@ paypalProofGen = () => {
 
     let valuePrice = ""
     if (category == "eur") {
-        valuePrice = `${price} EUR`
+        valuePrice = `${price} CAD`
     } else if (category == "usd") {
         valuePrice = `$${price} USD`
     } else if (category == "gpb") {
-        valuePrice = `Â£${price} GPB`
+        valuePrice = `Â£${price} AUD`
     }
 
 
